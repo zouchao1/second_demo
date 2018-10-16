@@ -80,6 +80,23 @@ const getMenuList = async () => {
 
   
     $("section .slide_one").html(_html);
+let trans_food_html={};
+Array.from($(".kinds")).forEach((item,index)=>{
+    if (index===10||index===11) {
+        trans_food_html[index]= $(".kinds").eq(index).html();
+        $(".kinds").eq(index).css("display","none");
+    }
+})
+let menu_food_div=$("<div>");
+menu_food_div.addClass("kinds")
+let menu_food_div2=$("<div>");
+menu_food_div2.addClass("kinds")
+ menu_food_div.html(trans_food_html[10]);
+ menu_food_div2.html(trans_food_html[11]);
+ $(".slide_two").append(menu_food_div);
+ $(".slide_two").append(menu_food_div2);
+
+  console.log(trans_food_html)
     var swiper = new Swiper('.swiper_two', {
         slidesPerView: 'auto',
         centeredSlides: true,

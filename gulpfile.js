@@ -8,8 +8,11 @@ const config=require('./config');
 const { server_config, sass_config, webpack_config } = config;
 
 gulp.task('server',()=>{
-	return gulp.src('./dist')
-	.pipe(server(server_config))
+
+		return gulp.src('./dist')
+		.pipe(server(server_config))
+
+	
 })
 
 gulp.task('copy:html',()=>{

@@ -1,0 +1,4 @@
+{
+    "/api/food/list": "/list",
+    "/api/food/list_time": "/list"
+}
