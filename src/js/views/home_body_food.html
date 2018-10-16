@@ -1,0 +1,15 @@
+{{#each _body_food_list}}
+<div class="food_father">
+<div class="food-img">
+    <img src="{{this.restaurant.image_path}}">
+</div>
+<div class="food-content">
+<div class="kind"><span>品牌</span><h4>{{this.restaurant.name}}</h4></div>
+<div class="send"><span>${{this.restaurant.float_minimum_order_amount}}起送</span>&nbsp;&nbsp;&nbsp;<span>{{this.restaurant.piecewise_agent_fee.description}}</span><span class="distance" >{{this.restaurant.distance}}m|{{this.restaurant.order_lead_time}}分钟</span></div>
+
+<div class="view"><span></span><span>{{this.restaurant.rating}}月收{{this.restaurant.recent_order_num}}单</span>{{#if this.restaurant.delivery_mode.text}}<span class="send-bird">{{ this.restaurant.delivery_mode.text}}</span>{{/if}}</div>
+<div  class="people_good">{{#each  this.restaurant.support_tags }}<span> {{this.text}}</span>{{/each}}</div>
+<div class="first_buy"><span class="first_pay">首</span><span>{{#each this.restaurant.activities}}{{this.tips}} {{/each}}</span></div>
+</div>
+</div>
+{{/each}}
