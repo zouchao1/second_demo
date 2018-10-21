@@ -8,6 +8,7 @@ import BScroll from 'better-scroll';
 
 const render = () => {
     $(document).ready(function () {
+        $(".header").css('display','block');
         var mySwiper = new Swiper('.swiper_one', {
             autoplay: true, //可选选项，自动滑动
             loop: true

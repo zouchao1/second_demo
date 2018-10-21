@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+    -webkit-tap-highlight-color: transparent;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+html,body{
+    height: 100%; 
+    background: #f5f5ff;
+}
+.s-header{
+    width: 100%;
+    height: 1.173333rem;
+    background:#0085ff; 
+}
+.s-header-con{
+    text-align: center;
+    line-height: 1.173333rem;
+    font-size: 2em;
+    color: #fff;
+}
+.s-header-down{
+    display: -webkit-flex;
+    display: flex;
+    background-image: linear-gradient(90deg,#0af,#0085ff);
+    padding: .666667rem .4rem;
+    padding: 6.666667vw 4vw;
+    color: #fff;
+    -webkit-align-items: center;
+    align-items: center;
+}
+.s-header-down .s-left{
+    width: 1.6rem;
+    height: 1.6rem;
+    border-radius: 50%;
+}
+.s-header-down .s-left img{
+    border-radius: 50%;
+    width: 100%;
+    height: 100%;
+}
+.s-con{
+    overflow: hidden;
+    margin-left: .48rem;
+    margin-left: 4.8vw;
+    -webkit-flex-grow: 1;
+    flex-grow: 1;
+}
+.s-con .up-in{
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    font-size: .56rem;
+    margin-bottom: .213333rem;
+    margin-bottom: 2.133333vw;
+    font-weight: 700;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: center;
+    align-items: center;
+}
+.s-con .up-down{
+    white-space: nowrap;
+    font-size: .32rem;
+    font-weight: 400;
+}
+.s-pic{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 2.24rem;
+    height: 22.4vw;
+    border-bottom: 1px solid #ddd;
+    background-color: #fff;
+}
+.s-pic .public{
+    width: 3.333333rem;
+    height: 2.226667rem;
+    text-align: center;
+    border-right: .013333rem solid #ddd;
+}
+.s-pic .public .public-con{
+    width: 100%;
+    height: 1.133333rem;
+    margin-top: .586667rem;
+    font-weight: 700;
+    color: #666;
+}
+.s-item{
+    width: 100%;
+    height: 1.186667rem;
+    margin-top: .333333rem;
+    line-height: 1.186667rem;
+    display: flex;
+    flex-direction: row;
+    border-top: .013333rem solid #ddd;
+    border-bottom: .013333rem solid #ddd;
+    background: #fff;
+}
+.s-little-pic{
+    width: 1.066667rem;
+    height:1.186667rem;
+    text-align: center;
+    line-height: 1.186667rem;
+
+    
+}
+.s-little-pic img{
+    width: .48rem;
+    height: .48rem;
+    display: block;
+    margin-top: .3233rem;
+    margin-left: .4rem;
+}
+.s-item .s-fonts{
+    width: 8.053333rem;
+    height:1.186667rem;
+    font-size: .426667rem;
+    color: #333; 
+}
+.icon{
+    width: .266667rem;
+    height:100%;
+    margin-left: .266667rem;
+    margin-top: .133333rem;
+}
+.icon>img{
+    
+    width: .266667rem;
+    height: .266667rem;
+}
