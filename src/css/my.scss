@@ -65,10 +65,13 @@ html,body{
     -webkit-align-items: center;
     align-items: center;
 }
+.s-con .up-in a{
+    color: #fff;
+}
 .s-con .up-down{
     white-space: nowrap;
     font-size: .32rem;
-    font-weight: 400;
+    font-weight: 700;
 }
 .s-pic{
     display: flex;
