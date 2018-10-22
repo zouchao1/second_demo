@@ -7,6 +7,6 @@ const find_person_list = () => {
     })
 }
 
-export default  {
-    find_person_list
+export default  {  
+    find_person_list  
 }
