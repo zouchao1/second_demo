@@ -1,12 +1,12 @@
 const find_person_list = () => {
     return $.ajax({
-        url:'./jspon/person',
+        url:'./static/mock/person.json',
         success:(res) =>{
             return res;
         }
     })
 }
 
-module.exports = {
+export default  {
     find_person_list
 }

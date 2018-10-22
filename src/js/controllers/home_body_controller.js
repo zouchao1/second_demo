@@ -22,7 +22,7 @@ const render = () => {
     handleBodyScroll()
   
 
-}
+}  
 
 const handleBodyScroll = async () => {
     let _body_scroll = new BScroll('main', {
